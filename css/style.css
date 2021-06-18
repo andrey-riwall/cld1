@@ -356,7 +356,7 @@ button {
   border-bottom: 1px solid #FF9900;
 }
 
-.curtain:nth-of-type(5):hover + .line {
+.curtain:nth-of-type(5):hover + .sct-faq__list__item .line {
   border-bottom: 1px solid #FF9900;
 }
 
