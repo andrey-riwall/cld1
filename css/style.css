@@ -99,6 +99,25 @@ button {
 }
 
 
+/* js scroll */
+._anim-items {
+  transform: translateY(120%);
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: .8s;
+  transition-timing-function: ease;
+}
+
+._anim-items-desc {
+  transition-delay: .25s;
+}
+
+._is-active {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+
 /* UI-kit */
 
 /* menu */
