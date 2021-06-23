@@ -784,6 +784,7 @@ button {
 }
 
 .footer__center-group__form__input {
+  max-width: 570px;
   width: 570px;
 
   padding: 14px 24px;
@@ -915,6 +916,10 @@ button {
 
 /* 1600px */
 @media (min-width: 1337px) and (max-width: 1600px) {
+  body {
+    min-width: 1600px;
+  }
+
   .sct-about-us__cards__right-cards__card__content {
     margin-top: 20px;
     margin-right: 0;
@@ -939,6 +944,9 @@ button {
 
 /* 1336px */
 @media (min-width: 1025px) and (max-width: 1336px) {
+  body {
+    min-width: 1336px;
+  }
 
   .header__nav__list__item:not(:last-child) {
     margin-right: 50px;
@@ -985,6 +993,10 @@ button {
 
 /* 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    min-width: 1024px;
+  }
+
   .container {
     max-width: 924px;
   }
@@ -1116,6 +1128,10 @@ button {
 
 /* 768px */
 @media (min-width: 577px) and (max-width: 768px) {
+  body {
+    min-width: 768px;
+  }
+
   .container {
     max-width: 688px;
   }
@@ -1298,7 +1314,7 @@ button {
   }
 
   .input {
-    max-width: 555px;
+    max-width: 72.26%;
   }
 
   .footer__right-group__description {
@@ -1308,7 +1324,11 @@ button {
   
 
 /* 576px */
-@media (max-width: 576px) {
+@media (min-width: 321px) and (max-width: 576px) {
+  body {
+    min-width: 576px;
+  }
+
   .container {
     max-width: 496px;
   }
@@ -1335,7 +1355,7 @@ button {
 
   .sct-hero__background {
     background: url(../img/hero/bild2.png) no-repeat;
-    width: 496px;
+    width: 476px;
   }
 
   .sct-hero__background__content {
@@ -1560,7 +1580,7 @@ button {
   }
 
   .input {
-    max-width: 476px;
+    max-width: 72.26%;
   }
 
   .footer__center-group__form__input-btn {
@@ -1584,6 +1604,10 @@ button {
 
 /* 320px */
 @media (max-width: 320px) {
+  body {
+    min-width: 320px;
+  }
+
   .container {
     max-width: 290px;
     padding: 0;
@@ -1955,7 +1979,7 @@ button {
   }
 
   .input {
-    max-width: 290px;
+    max-width: 72.26%;
   }
 
   .footer__center-group__form__input-btn {
