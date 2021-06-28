@@ -1575,8 +1575,12 @@ button {
     margin-right: 0px;
     flex-wrap: wrap;
     max-width: 476px;
-    align-items: center;
-    justify-content: center;
+    width: 467px;
+  }
+
+  .footer__center-group__heading {
+    max-width: 467px;
+    text-align: center;
   }
 
   .input {
@@ -1588,12 +1592,26 @@ button {
     margin-bottom: 20px;
   }
 
+  .footer__center-group__form__checkbox-n-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 467px;
+  }
+
   .footer__center-group__form__group-checkbox {
     margin-bottom: 50px;
   }
 
+  .footer__center-group__form__input-btn {
+    display: inline-block;
+  }
+
   .footer__center-group__form {
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 467px;
   }
 
   .footer__right-group__description {
