@@ -1082,6 +1082,10 @@ button {
     padding-bottom: 80px;
   }
 
+  .media-bild-320 {
+    display: none;
+  }
+
   .sct-how-we-work__group {
     margin-right: 50px;
   }
@@ -1998,6 +2002,8 @@ button {
 
   .input {
     max-width: 72.26%;
+    width: 290px;
+    max-width: 290px;
   }
 
   .footer__center-group__form__checkbox-n-btn {
